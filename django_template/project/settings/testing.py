@@ -1,1 +1,4 @@
-from project.settings.production import *
+from project.settings.production import *  # noqa
+
+
+DEBUG = True
