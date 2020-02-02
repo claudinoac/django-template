@@ -1,4 +1,4 @@
-name: Pipeline
+name: Test Pipeline
 
 on:
   pull_request:
@@ -6,7 +6,7 @@ on:
 
 jobs:
   Test:
-    runs-on: python:3.7-alpine
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v1
@@ -17,10 +17,16 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements/development.txt
+        pip install -r django_template/requirements/development.txt
     - name: Run tests and check for coverage
       run: |
+        cd django_template
         coverage run manage.py test
         coverage xml -i
+        export CODECOV_TOKEN=${{ secrets.codecov_token }}
+        coverage report
+        bash <(curl -s https://codecov.io/bash) -cF unit
         coverage run $(which behave) apps/**/tests/integration
         coverage xml -i
+        coverage report
+        bash <(curl -s https://codecov.io/bash) -cF integration

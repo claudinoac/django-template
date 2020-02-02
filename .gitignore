@@ -2,3 +2,6 @@
 __pycache__/
 db.sqlite3
 .coverage
+build/
+dist/
+*.egg-info
