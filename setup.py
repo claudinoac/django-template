@@ -16,7 +16,7 @@ with open(os.path.join(current_directory, "django_template/requirements/producti
 
 setup(
     name='django template',  # nome do pacote/aplicação
-    version='0.0.1.dev5',  # Versão do pacote -> Deve ser atualizada a cada deploy
+    version='0.0.1.dev6',  # Versão do pacote -> Deve ser atualizada a cada deploy
     packages=['django_template'],  # O nome da pasta com o conteúdo da aplicação.
     include_package_data=True,
     entry_points={'console_scripts': [
