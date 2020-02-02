@@ -23,4 +23,4 @@ jobs:
         python -m safety check
     - name: Run security linter
       run: |
-        python -m bandit django_template -c .bandit-config.yml -r django_template/**
+        python -m bandit -c .bandit-config.yml -r django_template/**
