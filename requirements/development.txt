@@ -2,6 +2,7 @@
 model-mommy
 isort
 mypy
+behave
 pylint
 flake8
 black
