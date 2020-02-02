@@ -15,8 +15,10 @@ A Template for production-ready django-based applications
 Featuring:
 
 - Django 3.0
-- Unit (django-test) and Integration (Behave) Tests
 - Container runtime
+- Unit (django-test) and Integration (Behave) Tests
+- Package auditing via safety and security linting with bandit
+- Static linting with flake8 and mypy
 - Test and deployment to pipy pipelines via github actions
 - Coverage reporting
 - Development and Production settings
@@ -61,6 +63,12 @@ Featuring:
 ## Architecture:
 
 ![project cover](.static/project-tree.png)
+
+
+To create an app from our template, run inside the `apps` folder:
+
+- ```$ django-admin startapp --template app_template.zip [app_name]```
+
 
 ---
 
