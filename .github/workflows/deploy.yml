@@ -23,4 +23,5 @@ jobs:
     - name: Publish to PiPy
       uses: pypa/gh-action-pypi-publish@master 
       with:
+        user: claudinoac
         password: ${{ secrets.pipy_password }}
