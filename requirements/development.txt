@@ -1,0 +1,9 @@
+-r production.txt
+model-mommy
+isort
+mypy
+pylint
+flake8
+black
+coverage
+
