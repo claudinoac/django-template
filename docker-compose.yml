@@ -6,7 +6,7 @@ services:
       dockerfile: project.dockerfile
     command: python manage.py runserver 0.0.0.0:3000
     volumes:
-      - ./:/code
+      - ./django_template/:/code
     ports:
       - "3000:3000"
     container_name: server

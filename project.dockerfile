@@ -15,7 +15,7 @@ RUN apk --update add postgresql-dev gcc musl-dev
 RUN pip3.7 install -U pip setuptools
 
 RUN mkdir /code
-COPY . /code/
+COPY django_template /code/
 WORKDIR /code/requirements
 RUN pip install -r ./development.txt
 WORKDIR /code
