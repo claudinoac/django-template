@@ -6,7 +6,7 @@ on:
 
 jobs:
   Test:
-    runs-on: python:3.7-alpine
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v1
