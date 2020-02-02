@@ -4,7 +4,8 @@
 
 [![Coverage](https://codecov.io/gh/claudinoac/django-template/branch/master/graph/badge.svg)](https://codecov.io/gh/claudinoac/django-template)
 ![Deploy](https://github.com/claudinoac/django-template/workflows/Deploy/badge.svg)
-![Test Pipeline](https://github.com/claudinoac/django-template/workflows/Test%20Pipeline/badge.svg?branch=dev)
+![Tests](https://github.com/claudinoac/django-template/workflows/Tests/badge.svg?branch=dev)
+![Security Checks](https://github.com/claudinoac/django-template/workflows/Security/badge.svg?branch=dev)
 [![PyPI version](https://badge.fury.io/py/django-template.svg)](https://badge.fury.io/py/django-template)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 

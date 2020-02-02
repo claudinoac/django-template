@@ -1,0 +1,7 @@
+exclude_dirs:
+  - 'django_template/settings/*.py'
+  - 'django_template/apps/**/tests/unit/*.py'
+  - 'django_template/apps/**/tests/integration/steps/*.py'
+  - 'django_template/apps/**/migrations/*.py'
+  - 'django_template/requirements/'
+

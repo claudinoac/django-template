@@ -7,4 +7,5 @@ pylint
 flake8
 black
 coverage
-
+safety
+bandit
