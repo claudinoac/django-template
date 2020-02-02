@@ -6,6 +6,7 @@
 ![Deploy](https://github.com/claudinoac/django-template/workflows/Deploy/badge.svg)
 ![Tests](https://github.com/claudinoac/django-template/workflows/Tests/badge.svg?branch=dev)
 ![Security Checks](https://github.com/claudinoac/django-template/workflows/Security/badge.svg?branch=dev)
+![Lint](https://github.com/claudinoac/django-template/workflows/Lint/badge.svg?branch=dev)
 [![PyPI version](https://badge.fury.io/py/django-template.svg)](https://badge.fury.io/py/django-template)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
