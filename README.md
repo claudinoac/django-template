@@ -82,7 +82,7 @@ Featuring:
 	- For details, check the [behave's documentation](https://behave.readthedocs.io/en/latest/)
 
 - To run the integration tests, run 
-	- ```$ make run-unit-tests```
+	- ```$ make run-integration-tests```
 	
 ---
 
